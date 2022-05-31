@@ -8,7 +8,7 @@
         <meta content="Law Firm Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="{{ asset('frontendassets/js/main.js') }}" rel="icon">
+        <link href="{{ asset('frontendAssets/js/main.js') }}" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
@@ -16,11 +16,11 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="{{ asset('frontendassets/lib/animate/animate.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('frontendassets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('frontendAssets/lib/animate/animate.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('frontendAssets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="{{ asset('frontendassets/css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('frontendAssets/css/style.css') }}" rel="stylesheet">
     </head>
 
     <body>
@@ -105,7 +105,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ asset('frontendassets/img/carousel-1.jpg') }}" alt="Carousel Image">
+                        <img src="{{ asset('frontendAssets/img/carousel-1.jpg') }}" alt="Carousel Image">
                         <div class="carousel-caption">
                             <h1 class="animated fadeInLeft">We fight for your justice</h1>
                             <p class="animated fadeInRight">Lorem ipsum dolor sit amet elit. Mauris odio mauris...</p>
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="{{ asset('frontendassets/img/carousel-2.jpg') }}" alt="Carousel Image">
+                        <img src="{{ asset('frontendAssets/img/carousel-2.jpg') }}" alt="Carousel Image">
                         <div class="carousel-caption">
                             <h1 class="animated fadeInLeft">We prepared to oppose for you</h1>
                             <p class="animated fadeInRight">Lorem ipsum dolor sit amet elit. Mauris odio mauris...</p>
@@ -123,7 +123,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="{{ asset('frontendassets/img/carousel-3.jpg') }}" alt="Carousel Image">
+                        <img src="{{ asset('frontendAssets/img/carousel-3.jpg') }}" alt="Carousel Image">
                         <div class="carousel-caption">
                             <h1 class="animated fadeInLeft">We fight for your privilege</h1>
                             <p class="animated fadeInRight">Lorem ipsum dolor sit amet elit. Mauris odio mauris...</p>
@@ -188,7 +188,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
                             <div class="about-img">
-                                <img src="{{ asset('frontendassets/img/about.jpg') }}" alt="Image">
+                                <img src="{{ asset('frontendAssets/img/about.jpg') }}" alt="Image">
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
@@ -346,7 +346,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="feature-img">
-                                <img src="{{ asset('frontendassets/img/feature.jpg') }}" alt="Feature">
+                                <img src="{{ asset('frontendAssets/img/feature.jpg') }}" alt="Feature">
                             </div>
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="{{ asset('frontendassets/img/team-1.jpg') }}" alt="Team Image">
+                                    <img src="{{ asset('frontendAssets/img/team-1.jpg') }}" alt="Team Image">
                                 </div>
                                 <div class="team-text">
                                     <h2>Adam Phillips</h2>
@@ -382,7 +382,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="{{ asset('frontendassets/img/team-2.jpg') }}" alt="Team Image">
+                                    <img src="{{ asset('frontendAssets/img/team-2.jpg') }}" alt="Team Image">
                                 </div>
                                 <div class="team-text">
                                     <h2>Dylan Adams</h2>
@@ -399,7 +399,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="{{ asset('frontendassets/img/team-3.jpg') }}" alt="Team Image">
+                                    <img src="{{ asset('frontendAssets/img/team-3.jpg') }}" alt="Team Image">
                                 </div>
                                 <div class="team-text">
                                     <h2>Gloria Edwards</h2>
@@ -416,7 +416,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="{{ asset('frontendassets/img/team-4.jpg') }}" alt="Team Image">
+                                    <img src="{{ asset('frontendAssets/img/team-4.jpg') }}" alt="Team Image">
                                 </div>
                                 <div class="team-text">
                                     <h2>Josh Dunn</h2>
@@ -442,7 +442,7 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="faqs-img">
-                                <img src="{{ asset('frontendassets/img/faqs.jpg') }}" alt="Image">
+                                <img src="{{ asset('frontendAssets/img/faqs.jpg') }}" alt="Image">
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -530,7 +530,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-1.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-1.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -547,7 +547,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-2.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-2.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -564,7 +564,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-3.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-3.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -581,7 +581,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-4.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-4.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -598,7 +598,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-1.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-1.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -615,7 +615,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-2.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-2.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -632,7 +632,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="{{ asset('frontendassets/img/testimonial-3.jpg') }}" alt="">
+                                    <img src="{{ asset('frontendAssets/img/testimonial-3.jpg') }}" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>Client Name</h2>
@@ -658,7 +658,7 @@
                     </div>
                     <div class="owl-carousel blog-carousel">
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -672,7 +672,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-2.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-2.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -686,7 +686,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-3.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-3.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -700,7 +700,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -714,7 +714,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-2.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-2.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -728,7 +728,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-3.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-3.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -742,7 +742,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -768,7 +768,7 @@
                     </div>
                     <div class="owl-carousel blog-carousel">
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -782,7 +782,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-2.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-2.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -796,7 +796,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-3.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-3.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -810,7 +810,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -824,7 +824,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-2.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-2.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -838,7 +838,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-3.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-3.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -852,7 +852,7 @@
                             <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                         <div class="blog-item">
-                            <img src="{{ asset('frontendassets/img/blog-1.jpg') }}" alt="Blog">
+                            <img src="{{ asset('frontendAssets/img/blog-1.jpg') }}" alt="Blog">
                             <h3>Lorem ipsum dolor</h3>
                             <div class="meta">
                                 <i class="fa fa-list-alt"></i>
@@ -1024,11 +1024,11 @@
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="{{ asset('frontendassets/lib/easing/easing.min.js') }}"></script>
-        <script src="{{ asset('frontendassets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('frontendassets/lib/isotope/isotope.pkgd.min.js') }}"></script>
+        <script src="{{ asset('frontendAssets/lib/easing/easing.min.js') }}"></script>
+        <script src="{{ asset('frontendAssets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('frontendAssets/lib/isotope/isotope.pkgd.min.js') }}"></script>
 
         <!-- Template Javascript -->
-        <script src="{{ asset('frontendassets/js/main.js') }}"></script>
+        <script src="{{ asset('frontendAssets/js/main.js') }}"></script>
     </body>
 </html>
