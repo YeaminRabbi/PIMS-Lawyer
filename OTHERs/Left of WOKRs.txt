@@ -1,0 +1,4 @@
+1. Comment section in BLOG
+2. CSS in BLOG+gallery+case study in frontend
+3. Highlight text in blog+case study
+4. furnishing the site

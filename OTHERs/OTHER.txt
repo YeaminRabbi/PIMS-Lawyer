@@ -1,0 +1,22 @@
+function AdminLoginDashboard(Request $req){
+       // return $req->all();
+        if (Auth::attempt(array('email' => $req->email, 'password' => $req->password, 'user_type'=>'admin'))){
+           
+           $user = Auth::user();
+           
+            return redirect()->route('admin.dashboard');
+        }else{
+            return "Wrong Credentials";
+        }     
+    }
+
+
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=techartist2020@gmail.com
+MAIL_PASSWORD=hrsjxbfbreunsdte
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS='paperarts@gmail.com'
+MAIL_FROM_NAME="${APP_NAME}"

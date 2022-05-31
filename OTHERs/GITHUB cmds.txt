@@ -1,0 +1,29 @@
+PULL :
+
+git fetch origin
+git status
+git pull
+
+
+------------------
+PUSH: 
+
+git add . 
+git commit -m "[enter your comment]"
+git push -u origin main
+
+
+
+------------------
+Clone a project for laravel
+
+git clone [URL of the repository]
+
+composer install
+
+npm install
+
+cp .env.example .env
+
+php artisan key:generate
+

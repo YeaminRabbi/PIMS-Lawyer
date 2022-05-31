@@ -1,0 +1,131 @@
+@extends('layouts.frontend.masterLayout')
+@section('NAVBAR')
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+        <a class="navbar-brand" href="{{route('front')}}">Jahid</a>
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="{{route('front')}}" class="nav-link"><span>Home</span></a></li>
+            <li class="nav-item"><a href="{{route('Gallery')}}" class="nav-link"><span>Gallery</span></a></li>
+            <li class="nav-item"><a href="{{route('CaseStudy')}}" class="nav-link"><span>Case Study</span></a></li>
+            <li class="nav-item"><a href="{{route('Blog')}}" class="nav-link"><span>Blogs</span></a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+@endsection
+
+@section('pagetitle')
+    Case Study
+@endsection
+
+@section('content')
+<section class="ftco-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 ftco-animate">
+          <h2 class="mb-2">{{$casestudy->title}}</h2>
+          <p>
+            <img src="{{ asset('images/case_study/'.$casestudy->created_at->format('Y/M/').'/'.$casestudy->image) }}" alt="" class="img-fluid">
+          </p>
+
+          <h3 class="mb-3">{{$casestudy->introduction}}</h3>
+          <div>
+              {!! $casestudy->text !!}
+          </div>
+         
+        
+
+          {{-- <div class="pt-5 mt-5">
+            <h3 class="mb-5">6 Comments (On progress)</h3>
+            <ul class="comment-list">
+              <li class="comment">
+                
+                <div class="comment-body">
+                  <h3>John Doe</h3>
+                  <div class="meta">June 20, 2019 at 2:21pm</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                  <p><a href="#" class="reply">Reply</a></p>
+                </div>
+              </li>
+
+              
+              <li class="comment">
+                
+                <div class="comment-body">
+                  <h3>John Doe</h3>
+                  <div class="meta">June 20, 2019 at 2:21pm</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                  <p><a href="#" class="reply">Reply</a></p>
+                </div>
+              </li>
+            </ul>
+        
+            
+            <div class="comment-form-wrap pt-5">
+              <h3 class="mb-5">Leave a comment</h3>
+              <form action="#" class="p-5 bg-dark">
+                <div class="form-group">
+                  <label for="name">Name *</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="website">Website</label>
+                  <input type="url" class="form-control" id="website">
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                </div>
+
+              </form>
+            </div>
+          </div> --}}
+
+        </div> <!-- .col-md-8 -->
+
+        @if ($othercasestudy->isNotEmpty())
+            <div class="col-lg-4 sidebar ftco-animate">
+            
+                <div class="sidebar-box ftco-animate">
+                <h3 class="heading-sidebar">Other Case Study</h3>
+                
+                @foreach ($othercasestudy as $data)
+                    <div class="block-21 mb-4 d-flex">
+                        <a href="{{ route('CaseStudyDetails', $data->id)}}" class="blog-img mr-4" style="background-image: url({{ asset('images/case_study/'.$data->created_at->format('Y/M/').'/'.$data->image) }});"></a>
+                        <div class="text">
+                        <h3 class="heading"><a href="{{ route('CaseStudyDetails', $data->id)}}">{{$data->title}}</a></h3>
+                        <div class="meta">
+                            <div>
+                                <a>
+                                    <span class="icon-calendar"></span> {{date('d M, Y', strtotime($data->created_at))}}
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                @endforeach
+
+                </div>
+            </div>
+        @endif
+       
+
+      </div>
+    </div>
+  </section> <!-- .section -->
+      
+
+@endsection

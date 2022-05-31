@@ -1,0 +1,65 @@
+gitCommands for clone a project and install to run:
+
+1. git clone [URL of the repository]
+
+2. composer install
+
+3. npm install
+
+4. cp .env.example .env
+
+5. php artisan key:generate
+
+----------------------
+Rollback
+php artisan migrate:rollback --step=1
+
+
+CMD for creating models:
+php artisan make:model 'NAMEOFTHEMODEL' -m
+
+
+Cmd for storage for images and files:
+php artisan storage:link
+
+
+How to add a new column in Laravel:
+php artisan make:migration [migration name] --table=[TABLE name]
+ex: php artisan make:migration add_paid_to_users_table --table=users
+
+CODE for adding a column in the DB with AFTER | Default value
+$table->integer('variant_price')->after('quantity')->default('2000');
+
+$table->dropColumn('variant_price');
+
+
+
+Cmd to make migration with table name:
+php artisan make:migration create_users_table --create=[table name]
+
+
+Cmd to make controller with resource
+php artisan make:controller [controller name] --resource
+
+
+
+
+
+Requirements For Laravel Installations:
+
+1. Xampp
+2. Download the composer from the https://getcomposer.org/download/
+3. Node.js from https://nodejs.org/en/
+
+
+For creating a new project:
+1. composer global require laravel/installer
+2. composer create-project --prefer-dist laravel/laravel [project_Name] "7.*"
+
+
+For authentication: 
+
+1. composer require laravel/ui:^2.4
+
+2. php artisan ui vue --auth
+

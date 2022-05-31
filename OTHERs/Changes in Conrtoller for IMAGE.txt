@@ -1,0 +1,10 @@
+1. AdminBlogInsert () -> Image::make($image)->save(public_path('../'.$thumbnail_location.$IMGNAME));
+2. AdminBlogUpdate () 
+
+3. AdminCaseStudyInsert ()
+4. AdminCaseStudyEdit ()
+
+5.  AdminGalleryMoreInsert ()
+6. AdminGalleryInsert ()
+
+7. AdminInfoProfilePicture ()
